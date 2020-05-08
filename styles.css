@@ -4,7 +4,10 @@
 @import "nav-bar.css";
 @import "friend.css";
 @import "friends.css";
-@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&display=swap");
+@import "find.css";
+@import "more.css";
+@import "settings.css";
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600&display=swap");
 
 * {
   box-sizing: border-box;
