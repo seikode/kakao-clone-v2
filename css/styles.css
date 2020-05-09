@@ -7,7 +7,9 @@
 @import "find.css";
 @import "more.css";
 @import "settings.css";
-@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600&display=swap");
+@import "chat.css";
+@import "mobile.css";
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700&display=swap");
 
 * {
   box-sizing: border-box;
@@ -24,4 +26,18 @@ body {
 a {
   color: inherit;
   text-decoration: none;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(50px);
+  }
+  to {
+    opacity: 1;
+    transform: none;
+  }
+}
+main {
+  animation: fadeIn 0.5s ease-in-out;
 }
